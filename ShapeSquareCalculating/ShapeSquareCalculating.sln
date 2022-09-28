@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSquareCalculating.Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{3EFF7ADF-F41B-4104-85DB-B352B60B6C3F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "application", "application", "{7823F5C5-B688-45ED-934B-A61E385C7D9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeSquareCalculator", "ShapeSquareCalculator\ShapeSquareCalculator.csproj", "{CE45371E-51A4-47ED-A90C-2E1211B7C4B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,10 @@ Global
 		{2684A97D-88B9-41D9-BE51-C28B7757F21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2684A97D-88B9-41D9-BE51-C28B7757F21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2684A97D-88B9-41D9-BE51-C28B7757F21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE45371E-51A4-47ED-A90C-2E1211B7C4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE45371E-51A4-47ED-A90C-2E1211B7C4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE45371E-51A4-47ED-A90C-2E1211B7C4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE45371E-51A4-47ED-A90C-2E1211B7C4B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{24AFDEC4-9B65-46E6-A445-0FA21B8FF84B} = {3EFF7ADF-F41B-4104-85DB-B352B60B6C3F}
 		{2684A97D-88B9-41D9-BE51-C28B7757F21A} = {3EFF7ADF-F41B-4104-85DB-B352B60B6C3F}
+		{CE45371E-51A4-47ED-A90C-2E1211B7C4B3} = {7823F5C5-B688-45ED-934B-A61E385C7D9A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDF6F67F-2F34-462A-B759-A30E955038B6}
